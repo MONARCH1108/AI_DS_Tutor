@@ -1,4 +1,4 @@
-# 🧠 Data Science Tutor AI
+# 🧠 Simple Data Science Tutor AI
 
 ## Description
 This is an interactive Data Science Tutor web app built using Streamlit and Gemini 2.0 Flash. It provides clear explanations, practical code examples, and step-by-step guidance on various data science concepts, including:
