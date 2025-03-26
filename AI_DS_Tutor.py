@@ -10,7 +10,6 @@ os.environ["GOOGLE_API_KEY"] = "Your_API_Key"
 
 class DataScienceTutor:
     def __init__(self):
-        # Initialize the Gemini 2.0 Flash model
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
             temperature=0.7,
@@ -74,7 +73,6 @@ def main():
             st.markdown(message["content"])
 
     if prompt := st.chat_input("What data science concept can I help you with?"):
-        # Add user message to chat history
         st.session_state.messages.append(
             {"role": "user", "content": prompt}
         )
